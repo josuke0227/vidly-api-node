@@ -5,6 +5,9 @@ const config = require("config");
 module.exports = function () {
   const db = config.get("db");
 
+  // const db =
+  //   "mongodb+srv://vidly:Sams0n0v@cluster0.nnq0p.mongodb.net/vidly?retryWrites=true&w=majority";
+
   mongoose
     .connect(db, {
       useNewUrlParser: true,
