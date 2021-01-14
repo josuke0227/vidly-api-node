@@ -19,7 +19,7 @@ const server = app.listen(
     })
     .log({
       level: "info",
-      message: `Connected to ${port}...`,
+      message: `Connected to port ${port}...`,
     })
 );
 
